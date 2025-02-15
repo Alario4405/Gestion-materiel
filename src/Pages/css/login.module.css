@@ -1,0 +1,81 @@
+.dashboard{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    /* margin-left: 2rem; */
+    /* background: #d3dcdef6; */
+    /* border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; */
+
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    overflow: hidden;
+}
+
+.topBaseGradients{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    overflow: hidden;
+    z-index: -1;
+    /* border-top-left-radius: 30px; */
+
+}
+
+.topBaseGradients>:nth-child(2)
+{
+    left:40%;
+}
+.topBaseGradients>:nth-child(3)
+{
+    right: 0;
+}
+/* Login.css */
+.login {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .login-background .bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  
+  .login_box {
+   
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form_label {
+    font-weight: bold;
+  }
+  
+  .btn_primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

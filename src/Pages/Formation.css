@@ -1,0 +1,128 @@
+.tela{
+    display: flex;
+    /* background-color: #262626; */
+}
+
+.calandrio{
+
+    height: 70vh;
+    max-height: 70vh;
+    width: 100%;
+
+}
+.toolbar{
+    /* height: 80vh; */
+    width: 20%;
+    
+    /* color: #ffff; */
+    /* background-color: #1a1a1a; */
+    /* border-right: 1px solid #bbb; */
+}
+
+
+/* Calendrio */
+/* Header a botos */
+.rbc-toolbar{
+    /* height: 10vh; */
+    color: #000000;
+    /* font-size: 25px; */
+    /* height: 10%; */
+}
+.rbc-btn-group > button{
+    border: 0;
+}
+.rbc-toolbar button{
+    /* color: #ffffff; */
+    border: 1px solid #7b7b7b4f;
+    font-size: 10px;
+}
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active{
+    /* background-color: #f30909; */
+    /* border-color: #bbb; */
+}
+
+/* Corpo */
+/* Linhas */
+.rbc-month-view{
+    border-color: #7b7b7b1e;
+}
+.rbc-month-row+ .rbc-month-row{
+    border-color: #7b7b7b1e;
+}
+.rbc-day-bg + .rbc-day-bg {
+    border-color: #7b7b7b1e ;
+}
+
+/* mes  */
+.rbc-header{
+    color: black;
+    border-color: #7b7b7b1e;
+    /* font-size: 505px; */
+
+}
+.rbc-header + .rbc-header{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #7b7b7b1e;
+}
+.rbc-off-range-bg{
+    background-color: #b4b4b473;
+    
+}
+.rbc-today{
+    /* background-color: #1a1a1a; */
+}
+.rbc-button-link{
+    margin: 5px;
+    font-size: 15px;
+    /* color: #93933a; */
+    font-size: 12px;
+}
+.rbc-off-range .rbc-button-link{
+    color: #eeeeeef2;
+}
+.rbc-now .rbc-button-link{
+    background-color: #f15550;
+    color: #ffff;
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 5px;
+    font-size: 16px;
+}
+.rbc-time-content,.rbc-time-content > .rbc-day-slot,.rbc-timeslot-group, .rbc-time-slot{
+    /* color: #bbb; */
+    border-color: #b0b0b036;
+}
+.rbc-day-slot .rbc-time-slot{
+    border-top: 1px solid #c8c8c80a;
+}
+
+/* Agenda */
+.rbc-agenda-content, .rbc-agenda-view{
+    color: #aaa;
+}
+.rbc-agenda-date-cell, .rbc-agenda-time-cell{
+    background-color: #ffffff67;
+    color: #000000;
+}
+.rbc-agenda-event-cell{
+    border-radius: 20px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+.rbc-event{
+    /* width: 20; */
+    /* height: 1%; */
+    font-size: 10px;
+    
+}
+.rbc-event {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* Adjust width according to your needs */
+  /* width: 200px; */
+}
